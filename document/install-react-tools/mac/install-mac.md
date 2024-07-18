@@ -223,7 +223,3 @@ tsc is the TypeScript compiler. We use tsc to compile TypeScript code into JavaS
    If the installation is successful, you will see the version number.
 
 That's it! You have successfully installed the development tools: Visual Studio Code, nvm, node, npm and tsc.
-
-
----
-&copy; 2022, [luv2code LLC](http://www.luv2code.com) - All rights reserved.
