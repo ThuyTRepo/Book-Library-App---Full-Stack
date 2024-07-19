@@ -1,7 +1,7 @@
 # Full Stack: React and Spring Boot
 
 
-## React Installation Guides
+## Front-end : React Installation Guides
 
 * [Linux](document/install-react-tools/linux/install-linux.md)
 
@@ -9,41 +9,75 @@
 
 * [Microsoft Windows](document/install-react-tools/ms-windows/install-ms-windows.md)
 
+## Back-end Installation
+
+* Java Development Kit (JDK)
+  
+* Java IDE
+  
+* Maven
+
 ## Source Code
 
 * [Source code](source-code)
 
-&#8287;
-## Spring Boot Road Map - Learning Path
 
-Here is a Spring Boot Learning Path and Roadmap to help you learn more about Spring Boot. These are links to luv2code courses on Udemy. You can purchase the courses to further your studies.
 
-I'd recommend the following road map:
+## Project Description: Book Library Web Application
 
-### Core Courses
-1. [Spring Boot 3, Spring 6 and Hibernate for Beginners](http://www.luv2code.com/spring-github)
-1. [Spring Boot Unit Testing](https://www.udemy.com/course/spring-boot-unit-testing/?referralCode=4184DE360D78A70932EE)
-1. [Deploy Spring Boot 3 Apps on AWS (Amazon Cloud)](https://www.udemy.com/course/deploy-spring-boot-3-apps-to-aws/?referralCode=DCE8981B59C70BA6BDBF)
-1. [Hibernate: Advanced Development Techniques](https://www.udemy.com/course/hibernate-tutorial-advanced/?referralCode=6FB9E2BA9AF54A4C9E69)
+### Overview
+The Book Library application is a full-stack project designed to provide users with a seamless experience for exploring, checking out, and reviewing books. It features a dynamic, responsive interface that adapts to both desktop and mobile devices, ensuring an optimal user experience across platforms. The application also includes an admin site to manage the library, allowing administrators to efficiently oversee book inventories and user interactions.
 
-### Project Course: Spring Boot, Spring MVC and Thymeleaf
-For end-to-end project with Spring Boot, Spring MVC and Thymeleaf:
-1. [Spring Boot 3 Project - Build a Job Portal Web Application](https://www.udemy.com/course/spring-boot-project-job-portal-web-app/?referralCode=BB9301596150194B61E2)
+### Features
+1. **Homepage**:
+   - Welcome banner with a call to action to explore top books.
+   - Carousel showcasing featured books.
+   - Sign-up prompt for new users.
+   - Contact option for library admin.
 
-### Project Courses: Full Stack
-For full stack projects, you have the choice of either Angular or React. Pick the one that you like the best.
-1. [Full Stack: Angular and Spring Boot](https://www.udemy.com/course/full-stack-angular-spring-boot-tutorial/?referralCode=2264F90C65A86316BB6B)
-1. [Full Stack: React and Spring Boot](https://www.udemy.com/course/full-stack-react-and-java-spring-boot-the-developer-guide/?referralCode=4325FA579FD3D313E28D)
+2. **Explore Top Books**:
+   - Search functionality to filter books by title and category.
+   - Detailed book view with image, title, author, description, and user reviews.
+   - Availability status and user checkout information.
 
-&#8287;
-## More luv2code Courses
-For more courses, visit the [luv2code website](https://www.luv2code.com). 
+3. **User Interaction**:
+   - User sign-up and sign-in functionalities.
+   - Book checkout system with real-time updates.
+   - Review submission system for users to rate and comment on books.
+   - User bookshelf to manage current loans, return, and renew books.
+   - Loan history to track previously borrowed books.
 
-I'm looking forward to seeing you in other luv2code courses! 
+4. **Admin Panel**:
+   - Admin sign-in for managing book inventory.
+   - Adding new books and updating book quantities.
+   - Responding to user messages.
 
-&#8287;
-## Follow luv2code on Social Media
-* [YouTube Channel - luv2code](https://www.youtube.com/user/luv2codetv?sub_confirmation=1)
-* [Facebook Page - luv2code](https://www.facebook.com/luv2codetv)
-* [X (Twitter) - luv2code](https://twitter.com/luv2codetv)
-* [LinkedIn](https://www.linkedin.com/in/chaddarby/)
+### Tech Stack
+#### Front-end
+- **React**: A JavaScript library for building user interfaces, allowing the creation of reusable UI components.
+- **React Router DOM**: Used for routing in the application, enabling navigation between different views.
+- **TypeScript**: A superset of JavaScript that adds static typing, enhancing code quality and developer productivity.
+- **Okta React**: Integration for secure authentication and user management.
+- **Okta Sign-In Widget**: Provides a customizable sign-in experience, leveraging Okta for user authentication.
+- **Axios**: A promise-based HTTP client for making requests to the back-end API.
+- **CSS, Bootstrap**: For styling the application components to ensure a modern and responsive design.
+
+#### Back-end
+- **Spring Boot**: A Java-based framework used to create stand-alone, production-grade Spring applications.
+- **Spring Security**: Provides authentication and authorization capabilities for securing the application.
+- **MySQL**: A relational database management system for storing and managing application data.
+
+#### Integrations
+- **Okta**: For secure user authentication and authorization.
+- **Stripe**: For handling payments securely with PCI compliance.
+
+### API Endpoints
+- [Refer to API Specification document](document/API-Specification.xlsx)
+
+### Security and Compliance
+- **HTTPS**: All communications between the client and server are encrypted using HTTPS.
+- **Okta Integration**: Ensures secure authentication and authorization.
+- **Stripe Integration**: Ensures secure handling of payment information without storing sensitive data on the server.
+
+### Responsive Design
+The application is designed to be fully responsive, providing a seamless user experience on both desktop and mobile devices. The layout dynamically adjusts to different screen sizes, ensuring that all functionalities are accessible and easy to use on any device.
