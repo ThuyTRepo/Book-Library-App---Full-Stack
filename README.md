@@ -46,11 +46,13 @@ The Book Library application is a full-stack project designed to provide users w
    - Review submission system for users to rate and comment on books.
    - User bookshelf to manage current loans, return, and renew books.
    - Loan history to track previously borrowed books.
+   - Login for user: username: testuser@email.com, password: thanhthuy1999.
 
 4. **Admin Panel**:
    - Admin sign-in for managing book inventory.
    - Adding new books and updating book quantities.
    - Responding to user messages.
+   - Login for admin: username: adminuser@email.com, password: thanhthuy1999.
 
 ### Tech Stack
 #### Front-end
