@@ -25,7 +25,7 @@
 
 ## Project Description: Book Library Web Application
 
-## 📸 Project Screenshot
+## 📸 Project Screenshot - Client side
 
 <img src="./document/homepage.png" alt="Home Page" width="700"/>
 
