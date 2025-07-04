@@ -27,7 +27,7 @@
 
 ## 📸 Project Screenshot
 
-![Homepage](document/homepage.png)
+<img src="./document/homepage.png" alt="Home Page" width="700"/>
 
 ### Overview
 The Book Library application is a full-stack project designed to provide users with a seamless experience for exploring, checking out, and reviewing books. It features a dynamic, responsive interface that adapts to both desktop and mobile devices, ensuring an optimal user experience across platforms. The application also includes an admin site to manage the library, allowing administrators to efficiently oversee book inventories and user interactions.
